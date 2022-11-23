@@ -1,0 +1,146 @@
+Name: §b§lNewbie Crate
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 0
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids:
+  - newbie
+Block:
+  Locations: []
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: false
+    Offset:
+      Y: 1.5
+    Text:
+    - §bNEWBIE CRATE
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: FLAME
+      Data: ''
+Rewards:
+  List:
+    elytra_mending:
+      Name: Elytra
+      Chance: 0.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0021mmirj5cdp62pjk79imoubke9ggk003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec500000044000j9cg012rb9dpim6sj1cpq3krb5dpi6irj708006r3mdg0020000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0021mmirj5cdp62pjk79imoubke9ggk003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec500000044000j9cg012rb9dpim6sj1cpq3krb5dpi6irj708006r3mdg0020000400agrfeln78080
+    newbie_keys_2:
+      Name: 2 Newbie Keys
+      Chance: 0.5
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01erb9dpim6sj1cpq3kt3id5o7eqbiclfmgrrfdc5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80itti4pboehp628hqbdti4ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24obhelgi4b12ehingt1278h4spbnc9kma823e9gn8p909dini8jtbkm24t35f1q24eh249ug02g02987aojcd5hk4tbbddkn8lj1dhqmaso800e6au33clm6opbeehhn4obkclpjkoric5q6anrbclsisqb40036spbnc9kma0000400agrfeln780g0
+      Commands:
+      - '[CONSOLE] crate key give %player_name% newbie 2'
+      Items: []
+    cow_spawner:
+      Name: Cow Spawner
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800hdlkmspb3e9gmct1qedo62treclp0k003ehgme2g00ti6isrgdhgni2000h762rb502bnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2dhkmeq3kbto7asjgdhii4b12ehingt1278h56s31etn6ash2fleio8jkcls788hq48h7q2800h66usj510000001026nm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2f5imor3fesh2o8jkcls788hq491mutp2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands:
+      - '[CONSOLE] silkspawners give %player_name% cow 1'
+      Items: []
+    skeleton_spawner:
+      Name: Skeleton Spawner
+      Chance: 8.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800hdlkmspb3e9gmct1qedo62treclp0k003ehgme2g00ti6isrgdhgni2000h762rb502bnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2dhkmeq3kbto7asjgdhii4b12ehingt1278h56s31etn6ash2fleio8jkcls788hq48h7q2800h66usj5100000010297m8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2f5imor3fesh2o8jkcls788hq499mmpbcclq6urh2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands:
+      - '[CONSOLE] silkspawners give %player_name% skeleton 1'
+      Items: []
+    $25000:
+      Name: $25000
+      Chance: 3.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78080
+      Commands:
+      - '[CONSOLE] eco give %player-name% 25000'
+      Items: []
+    $10000:
+      Name: $10000
+      Chance: 5.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78080
+      Commands:
+      - '[CONSOLE] eco give %player-name% 10000'
+      Items: []
+    $5000:
+      Name: $5000
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78080
+      Commands:
+      - '[CONSOLE] eco give %player-name% 5000'
+      Items: []
+    lucky_sword:
+      Name: §b§lLucky Sword
+      Chance: 20.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01erb9dpim6sj1cpq3kp39c5mmurj4btpnerricg5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig14jr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49gn2tb148m24t35f1q24eh29hqm6qrp419nerricgh7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec5000000c4000j9cg01arb9dpim6sj1cpq3kpj9e9iluobje1im6t02001motjc000g020009km800hdlkmspb3e9gmct1qdhnmut39dpjg4003dhr6o002004000j9cg012rb9dpim6sj1cpq3krb5dpi6irj708006r3mdg0020000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01erb9dpim6sj1cpq3kp39c5mmurj4btpnerricg5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig14jr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49gn2tb148m24t35f1q24eh29hqm6qrp419nerricgh7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec5000000c4000j9cg01arb9dpim6sj1cpq3kpj9e9iluobje1im6t02001motjc000g020009km800hdlkmspb3e9gmct1qdhnmut39dpjg4003dhr6o002004000j9cg012rb9dpim6sj1cpq3krb5dpi6irj708006r3mdg0020000400agrfeln78080
+    lucky_pickaxe:
+      Name: §b§lLucky Pickaxe
+      Chance: 20.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qchkm2rbfdpi5us39cdlm2u3518006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck098up2cls78sj148t5mup2c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2c5onao925gh78pboegh3k8icelhmmu90a1km6qr1f1ii4vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk000001gg002d5i004bdd5n6aoric5j78ej6dtp78tbeck1000rcepm0008010004qb4008mqqbeclhn4ob6egt6qpbechkmspo2001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0020000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qchkm2rbfdpi5us39cdlm2u3518006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u880024sobdck098up2cls78sj148t5mup2c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2c5onao925gh78pboegh3k8icelhmmu90a1km6qr1f1ii4vat5gh78pboegh3k8h2fk00i00c8ln66q31dpq6qpbeehpgk000001gg002d5i004bdd5n6aoric5j78ej6dtp78tbeck1000rcepm0008010004qb4008mqqbeclhn4ob6egt6qpbechkmspo2001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0020000400agrfeln78080
+    three_forager_keys:
+      Name: 3 Forager Keys
+      Chance: 20.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800ndlkmspb3e9gmct1qehp6is3nd5p6anr8dtnmm2g00dq62poa003m8qbje1m62u880024sobdck09sup2cls78sj148t5mup2c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2chgn4qqvctp6apbe48m24t35f1q24eh28pnn4ob7clp20gric5q6a82bclsi4vat5gh78pboegh3k8h2fk00k00ia1qm4r39cd17aqrbd5q5cobcelin62003hingor5dhm6arjkcdp62t35ect66sj1ehiluqr5f4n6ip000tj6usj1ctin40000400agrfeln780o0
+      Commands:
+      - '[CONSOLE] crates key give %player_name% forager'
+      Items: []
+Item:
+  Material: LIGHT_BLUE_SHULKER_BOX
+  Amount: 1
+  Durability: 0
+  Name: Newbie Crate
+  Item_Flags: []
+  Unbreakable: false

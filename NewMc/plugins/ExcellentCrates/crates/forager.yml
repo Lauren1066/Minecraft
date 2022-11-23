@@ -1,0 +1,156 @@
+Name: §2§lForager Crate
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 0
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids: []
+Block:
+  Locations: []
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: false
+    Offset:
+      Y: 1.5
+    Text:
+    - §c§l§bFORAGER CRATE
+    - §7Buy a key at §cwww.myserver.com
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: FLAME
+      Data: ''
+Rewards:
+  List:
+    elytra_mending:
+      Name: Elytra
+      Chance: 5.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0021mmirj5cdp62pjk79imoubke9ggk003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec500000044000j9cg012rb9dpim6sj1cpq3krb5dpi6irj708006r3mdg0020000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0021mmirj5cdp62pjk79imoubke9ggk003ehgme0o00p262rb1ctig0000004g0325dphmgobeehmmarjkec500000044000j9cg012rb9dpim6sj1cpq3krb5dpi6irj708006r3mdg0020000400agrfeln78080
+    pig_spawner:
+      Name: Pig Spawner
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800hdlkmspb3e9gmct1qedo62treclp0k003ehgme2g00ti6isrgdhgni2000h762rb502bnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2dhkmeq3kbto7asjgdhii4b12ehingt1278h56s31etn6ash2fleio8jkcls788hq48h7q2800h66usj510000001026nm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2f5imor3fesh2o8jkcls788hq4986ipp2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800hdlkmspb3e9gmct1qedo62treclp0k003ehgme2g00ti6isrgdhgni2000h762rb502bnm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2dhkmeq3kbto7asjgdhii4b12ehingt1278h56s31etn6ash2fleio8jkcls788hq48h7q2800h66usj510000001026nm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh2f5imor3fesh2o8jkcls788hq4986ipp2fleio8jkcls788hq48h7q0000400agrfeln78080
+    16_enchanted_golden_apples:
+      Name: Enchanted Golden Apples
+      Chance: 8.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg020rb9dpim6sj1cpq3kpbecdk62rjkcli5uprfdhi6arivc5o70r350400agrfeln78400
+      Commands: []
+      Items:
+      - 2g0004000j9cg020rb9dpim6sj1cpq3kpbecdk62rjkcli5uprfdhi6arivc5o70r350400agrfeln78400
+    forager_shovel:
+      Name: §2§lForager Shovel
+      Chance: 10.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01grb9dpim6sj1cpq3kp39c5mmurj4btpmgrrmclm0k003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma04rfch6au3ke9gi4eirfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h68obiddfmesj5cln24b12ehingt1278h4crric5jmash0adk6utj5dgh7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec5000000g4000j9cg012rb9dpim6sj1cpq3kpjfe9q7arj508006r3mdg0060080016ip0025mmirj5cdp62pjk79mmarj4d5n6e0g00dm7cr000400g002d5i0053dd5n6aoric5j78ejjd5m6mnrkdtqm6q02001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0040000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01grb9dpim6sj1cpq3kp39c5mmurj4btpmgrrmclm0k003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma04rfch6au3ke9gi4eirfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h68obiddfmesj5cln24b12ehingt1278h4crric5jmash0adk6utj5dgh7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec5000000g4000j9cg012rb9dpim6sj1cpq3kpjfe9q7arj508006r3mdg0060080016ip0025mmirj5cdp62pjk79mmarj4d5n6e0g00dm7cr000400g002d5i0053dd5n6aoric5j78ejjd5m6mnrkdtqm6q02001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0040000400agrfeln78080
+    forager_pickaxe:
+      Name: §2§lForager Pickaxe
+      Chance: 10.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0035mmirj5cdp62pjk79i6iobddtn68nrgd5hmmobock5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig173r49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49i62sjbbtjn4pb5doh2o8jkcls788hq4936usj1ctin482gd5hmmobockh7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec5000000g4000j9cg012rb9dpim6sj1cpq3kpjfe9q7arj508006r3mdg0060080016ip0025mmirj5cdp62pjk79mmarj4d5n6e0g00dm7cr000400g002d5i0053dd5n6aoric5j78ejjd5m6mnrkdtqm6q02001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0035mmirj5cdp62pjk79i6iobddtn68nrgd5hmmobock5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig173r49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49i62sjbbtjn4pb5doh2o8jkcls788hq4936usj1ctin482gd5hmmobockh7qn9c49q6au3k48t248jt004g0325dphmgobeehmmarjkec5000000g4000j9cg012rb9dpim6sj1cpq3kpjfe9q7arj508006r3mdg0060080016ip0025mmirj5cdp62pjk79mmarj4d5n6e0g00dm7cr000400g002d5i0053dd5n6aoric5j78ejjd5m6mnrkdtqm6q02001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+    32_golden_apples:
+      Name: Golden Apples
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3kprfdhi6arivc5o70r350400agrfeln78800
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3kprfdhi6arivc5o70r350400agrfeln78800
+    frost_walker_2:
+      Name: Frost Walker II
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800odlkmspb3e9gmct1qcln66q31dpq6ap2vc9nmuqoa001n8ob714014krkdtp6ap25dphmgobeehmmarjkec500000044000j9cg01crb9dpim6sj1cpq3kpjidtpn8nrnc5m6mpbi08006r3mdg0040000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800odlkmspb3e9gmct1qcln66q31dpq6ap2vc9nmuqoa001n8ob714014krkdtp6ap25dphmgobeehmmarjkec500000044000j9cg01crb9dpim6sj1cpq3kpjidtpn8nrnc5m6mpbi08006r3mdg0040000400agrfeln78080
+    aqua_affinity:
+      Name: Aqua Affinity
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0063dd5n6aoric5j78ej5dphmgobeehim8nr2dtnmm2g00dq62po900956t3fe9im8hbecdk62rjkdlimst3j1800000110004qb400bmqqbeclhn4ob6egt62sblc5fm2pj6d5n6it3p08006r3mdg0020000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0063dd5n6aoric5j78ej5dphmgobeehim8nr2dtnmm2g00dq62po900956t3fe9im8hbecdk62rjkdlimst3j1800000110004qb400bmqqbeclhn4ob6egt62sblc5fm2pj6d5n6it3p08006r3mdg0020000400agrfeln78080
+    protection_3:
+      Name: Protection III
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400c6qqbeclhn4ob6egt6arj3d1gmst35chfm4rrfdc5000rkc5jgi00iadq6usj5ch2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qe1p6ut35cdq6irre08006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400c6qqbeclhn4ob6egt6arj3d1gmst35chfm4rrfdc5000rkc5jgi00iadq6usj5ch2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qe1p6ut35cdq6irre08006r3mdg0060000400agrfeln78080
+    blast_protection_3:
+      Name: Blast Protection III
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0031mmirj5cdp62pjk79imsor8c5n78pb4bth6urrb18006t31cs4g04ijehnn4pb48ln66q31dpq6qpbeehpgk000000gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79imsor8c5n78pb4bth6urrb18006t31cs4g04ijehnn4pb48ln66q31dpq6qpbeehpgk000000gg002d5i006jdd5n6aoric5j78ej2dhgn6t2ve1p6ut35cdq6irre08006r3mdg0060000400agrfeln78080
+    shulker_box:
+      Name: Shulker Box
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i005bdd5n6aoric5j78ejjd1qmoqr5e9fm4rro0400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005bdd5n6aoric5j78ejjd1qmoqr5e9fm4rro0400agrfeln78080
+Item:
+  Material: GREEN_SHULKER_BOX
+  Amount: 1
+  Durability: 0
+  Item_Flags: []
+  Unbreakable: false

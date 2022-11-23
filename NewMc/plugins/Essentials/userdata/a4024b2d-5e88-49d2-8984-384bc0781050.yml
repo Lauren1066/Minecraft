@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 25.60.116.100
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1669241484254
+  login: 1669234827661
+money: '0'
+last-account-name: IAmToastt
+logoutlocation:
+  world: 3947fac7-554b-4626-ad4f-89da4957112e
+  world-name: world
+  x: 28.624595781279954
+  y: 117.0
+  z: -6.335380347131298
+  yaw: -25.6541748046875
+  pitch: 50.69994354248047

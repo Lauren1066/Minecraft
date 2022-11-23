@@ -1,0 +1,41 @@
+# This global group will be applied to all players
+globalGroup:
+  prefix: ''
+  tabname: ''
+  suffix: ''
+
+groups:
+  # Vault group name OR player name OR custom group name (custom is assigned via permission)
+  exampleGroup:
+    prefix: '&a[&cStaff&a]&6 '
+    tabname: '%player-displayname%'
+    suffix: '&7 <12>'
+  
+  Default:
+    prefix: '&7'
+    tabname: '%player%'
+    suffix: ''
+  
+  Admin:
+    prefix: '&7<62>&r %anim:Admin%'
+    tabname: '%player%'
+    suffix: '&7 <62>'
+  
+  PlayerName:
+    prefix: '&a[MyGroup]&7'
+    tabname: '%player%'
+    suffix: ''
+  six:
+    prefix: '&esix&r - '
+  newbiecrate:
+    prefix: '&1newbiecrate&r - '
+  four:
+    prefix: '&3four&r - '
+  one:
+    prefix: '&3one&r - '
+  five:
+    prefix: '&4five&r - '
+  three:
+    prefix: '&4three&r - '
+  two:
+    prefix: '&otwo&r - '
