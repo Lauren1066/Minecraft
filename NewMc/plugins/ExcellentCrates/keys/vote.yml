@@ -1,0 +1,9 @@
+Name: §d§lVote Key
+Virtual: false
+Item:
+  Material: TRIPWIRE_HOOK
+  Amount: 1
+  Durability: 0
+  Name: '&d&lVote Crate Key'
+  Item_Flags: []
+  Unbreakable: false

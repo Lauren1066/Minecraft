@@ -1,0 +1,9 @@
+Name: §0§lSpawner Key
+Virtual: false
+Item:
+  Material: TRIPWIRE_HOOK
+  Amount: 1
+  Durability: 0
+  Name: '&0&lSpawner Crate Key'
+  Item_Flags: []
+  Unbreakable: false

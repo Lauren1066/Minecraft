@@ -8,7 +8,8 @@ Opening:
     MONEY: 0.0
     EXP: 0.0
 Key:
-  Ids: []
+  Ids:
+  - spawner
 Block:
   Locations: []
   Pushback:
@@ -18,8 +19,8 @@ Block:
     Offset:
       Y: 1.5
     Text:
-    - §c§l§bSPAWNER CRATE
-    - §7Buy a key at §cwww.myserver.com
+    - §bSPAWNER CRATE
+    - §7Buy a key at §cwww.myserver.com§c
   Effect:
     Model: HELIX
     Particle:

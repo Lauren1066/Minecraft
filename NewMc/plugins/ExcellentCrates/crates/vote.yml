@@ -1,0 +1,176 @@
+Name: §d§lVote Crate
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 0
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids:
+  - vote
+Block:
+  Locations: []
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: false
+    Offset:
+      Y: 1.5
+    Text:
+    - §c§l§bVOTE CRATE
+    - §7Buy a key at §cwww.myserver.com
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: FLAME
+      Data: ''
+Rewards:
+  List:
+    $15000:
+      Name: $15000
+      Chance: 1.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78080
+      Commands:
+      - '[CONSOLE] eco give %player_name% 15000'
+      Items: []
+    64_diamonds:
+      Name: Diamonds
+      Chance: 1.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kp39c5mmurj40400agrfeln78g00
+      Commands: []
+      Items:
+      - 2g0004000j9cg012rb9dpim6sj1cpq3kp39c5mmurj40400agrfeln78g00
+    premium_key:
+      Name: §6§lPremium Key
+      Chance: 1.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002tmmirj5cdp62pjk79q74qbgetkn4pavd1nmuqoa001n8ob71800ep39edo6oobp10008jj1dlig163r49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49jmur3448m24t35f1q24eh2a1p6arb9elmi0gric5q6a82bclsi4vat5gh78pboegh3k8h2fk00k00ia1qm4r39cd17aqrbd5q5cobcelin62003hingor5dhm6arjkcdp62t35ect66sj1ehiluqr5f4n6ip000to74pbdd5qmq0000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002tmmirj5cdp62pjk79q74qbgetkn4pavd1nmuqoa001n8ob71800ep39edo6oobp10008jj1dlig163r49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49jmur3448m24t35f1q24eh2a1p6arb9elmi0gric5q6a82bclsi4vat5gh78pboegh3k8h2fk00k00ia1qm4r39cd17aqrbd5q5cobcelin62003hingor5dhm6arjkcdp62t35ect66sj1ehiluqr5f4n6ip000to74pbdd5qmq0000400agrfeln78080
+    thors_hammer:
+      Name: §d§lThor's Hammer
+      Chance: 10.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01arb9dpim6sj1cpq3kp39c5mmurj4btgngp8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502e7m8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jcd5jmgt2ve1qn4s3cckh2o8jkcls788hq49a6grri4tpi0i31dlmmash2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01arb9dpim6sj1cpq3kp39c5mmurj4btgngp8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502e7m8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jcd5jmgt2ve1qn4s3cckh2o8jkcls788hq49a6grri4tpi0i31dlmmash2fleio8jkcls788hq48h7q0000400agrfeln78080
+    voters_helmet:
+      Name: §d§lVoter's Helmet
+      Chance: 10.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0063dd5n6aoric5j78ej4d5gmqrrechfmgpbcdlin82g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80jlti4pboehp628hqbdti4ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24r39ctk78nrgelp70r3548m24t35f1q24eh2apnn8pbi4tpi0i35dhmmat12fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0063dd5n6aoric5j78ej4d5gmqrrechfmgpbcdlin82g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80jlti4pboehp628hqbdti4ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24r39ctk78nrgelp70r3548m24t35f1q24eh2apnn8pbi4tpi0i35dhmmat12fleio8jkcls788hq48h7q0000400agrfeln78080
+    voters_chestplate:
+      Name: §d§lVoter's Chestplate
+      Chance: 10.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip003hmmirj5cdp62pjk79i6iobddtn68nr3d1in6t3gdhgn8p8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502gnm8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jcd5jmgt2ve1qn4s3cckh2o8jkcls788hq49b6ut35e8jn6823d1in6t3gdhgn8p92fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip003hmmirj5cdp62pjk79i6iobddtn68nr3d1in6t3gdhgn8p8a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502gnm8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jcd5jmgt2ve1qn4s3cckh2o8jkcls788hq49b6ut35e8jn6823d1in6t3gdhgn8p92fleio8jkcls788hq48h7q0000400agrfeln78080
+    voters_leggings:
+      Name: §d§lVoter's Leggings
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800qdlkmspb3e9gmct1qchkm2rbfdpi5ur35ctjmirj7ec5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig17rr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49m6ipr8ehfn0tbie1m6a8hc49q6au3k48t24ljfehin49rj4166apr7d5n6esp2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800qdlkmspb3e9gmct1qchkm2rbfdpi5ur35ctjmirj7ec5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp10008jj1dlig17rr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49m6ipr8ehfn0tbie1m6a8hc49q6au3k48t24ljfehin49rj4166apr7d5n6esp2fleio8jkcls788hq48h7q0000400agrfeln78080
+    voters_boots:
+      Name: §d§lVoter's Boots
+      Chance: 10.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002tmmirj5cdp62pjk79i6iobddtn68nr2dtnn8soa001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502e7m8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jcd5jmgt2ve1qn4s3cckh2o8jkcls788hq49b6ut35e8jn6822dtnn8sp2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002tmmirj5cdp62pjk79i6iobddtn68nr2dtnn8soa001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2000h762rb502e7m8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jcd5jmgt2ve1qn4s3cckh2o8jkcls788hq49b6ut35e8jn6822dtnn8sp2fleio8jkcls788hq48h7q0000400agrfeln78080
+    voters_shovel:
+      Name: §d§lVoter's Shovel
+      Chance: 10.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0063dd5n6aoric5j78ej4d5gmqrrechfn6q3fepimo2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80jlti4pboehp628hqbdti4ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24r39ctk78nrgelp70r3548m24t35f1q24eh2apnn8pbi4tpi0kr8dtr6ar12fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0063dd5n6aoric5j78ej4d5gmqrrechfn6q3fepimo2g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgg0049pgmqp80jlti4pboehp628hqbdti4ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24r39ctk78nrgelp70r3548m24t35f1q24eh2apnn8pbi4tpi0kr8dtr6ar12fleio8jkcls788hq48h7q0000400agrfeln78080
+    voter's_pickaxe:
+      Name: §d§lVoter's Pickaxe
+      Chance: 10.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400cmqqbeclhn4ob6egt68qb1dlnmsp2ve1km6qr1f1igk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma04ufch6au3ke9gi4eirfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h6oqb7d1q5us3le9o6op925gh78pboegh3k8imdtq6ash7ecg50qb3ddgngp92fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400cmqqbeclhn4ob6egt68qb1dlnmsp2ve1km6qr1f1igk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f440012ec5mma04ufch6au3ke9gi4eirfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h6oqb7d1q5us3le9o6op925gh78pboegh3k8imdtq6ash7ecg50qb3ddgngp92fleio8jkcls788hq48h7q0000400agrfeln78080
+    3000_claim_blocks:
+      Name: §a3000_claim_blocks Reward
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78080
+      Commands: []
+      Items: []
+    1000_claim_blocks:
+      Name: §a1000_claim_blocks Reward
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78080
+      Commands: []
+      Items: []
+    500_claim_blocks:
+      Name: §a500_claim_blocks Reward
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78080
+      Commands: []
+      Items: []
+Item:
+  Material: PINK_SHULKER_BOX
+  Amount: 1
+  Durability: 0
+  Item_Flags: []
+  Unbreakable: false
