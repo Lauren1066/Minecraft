@@ -1,618 +1,561 @@
-[19:08:05] [ServerMain/INFO]: Building unoptimized datafixer
-[19:08:07] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:08:08] [ServerMain/INFO]: Loaded 7 recipes
-[19:08:09] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[19:08:09] [Server thread/INFO]: Loading properties
-[19:08:09] [Server thread/INFO]: This server is running Paper version git-Paper-280 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 3ab194e)
-[19:08:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:08:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:08:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
-[19:08:10] [Server thread/INFO]: Default game type: SURVIVAL
-[19:08:10] [Server thread/INFO]: Generating keypair
-[19:08:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:08:11] [Server thread/INFO]: Using default channel type
-[19:08:11] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[19:08:11] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[19:08:12] [Server thread/INFO]: [NexEngine] Loading 1 libraries... please wait
-[19:08:12] [Server thread/INFO]: [NexEngine] Loaded library C:\Users\lauro\Dropbox\Minecraft\Minecraft\NewMc\libraries\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar
-[19:08:12] [Server thread/INFO]: [NexEngine] Loaded library C:\Users\lauro\Dropbox\Minecraft\Minecraft\NewMc\libraries\org\slf4j\slf4j-api\2.0.0-alpha1\slf4j-api-2.0.0-alpha1.jar
-[19:08:13] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.52
-[19:08:14] [Server thread/INFO]: [BetterCommandSpy] Loading BetterCommandSpy v2.0.3-b28
-[19:08:14] [Server thread/INFO]: [Chunky] Loading Chunky v1.3.38
-[19:08:14] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
-[19:08:14] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[19:08:14] [Server thread/INFO]: [SilkSpawners] Loading SilkSpawners v2.1.8
-[19:08:14] [Server thread/INFO]: [ChestSort] Loading ChestSort v13.4.0
-[19:08:14] [Server thread/INFO]: [AureliumSkills] Loading AureliumSkills vBeta 1.3.11
-[19:08:14] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
-[19:08:15] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@70f69aab]
-[19:08:15] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.0-dev+17-6e931b2
-[19:08:15] [Server thread/INFO]: [NotQuests] Loading NotQuests v5.8.4
-[19:08:15] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.20.0-dev+17-6e931b2
-[19:08:15] [Server thread/INFO]: [UltimateClaims] Loading UltimateClaims v1.10.0
-[19:08:15] [Server thread/INFO]: [NexEngine] Loading NexEngine v2.2.6 build-04/10/2022
-[19:08:15] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v21.2
-[19:08:15] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.26.0
-[19:08:15] [Server thread/INFO]: [ExcellentCrates] Loading ExcellentCrates v4.0.6
-[19:08:15] [Server thread/INFO]: [TabList] Loading TabList v5.6.4
-[19:08:15] [Server thread/INFO]: [AuctionHouse] Loading AuctionHouse v3.3.1
-[19:08:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:08:15] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.52
-[19:08:16] [Server thread/INFO]:         __    
-[19:08:16] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.52
-[19:08:16] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[19:08:16] [Server thread/INFO]: 
-[19:08:16] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[19:08:16] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[19:08:17] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[19:08:17] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[19:08:17] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1995ms)
-[19:08:17] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[19:08:17] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.20.0-dev+17-6e931b2 which is not a depend or softdepend of this plugin.
-[19:08:17] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[19:08:17] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[19:08:17] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[19:08:17] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[19:08:17] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
-[19:08:17] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[19:08:18] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[19:08:18] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[19:08:19] [Server thread/INFO]: [NexEngine] Enabling NexEngine v2.2.6 build-04/10/2022
-[19:08:19] [Server thread/INFO]: [NexEngine] Loaded NMS version: V1_19_R1
-[19:08:19] [Server thread/INFO]: [NexEngine] Successfully hooked with LuckPerms permissions
-[19:08:19] [Server thread/INFO]: [NexEngine] Successfully hooked with EssentialsX Economy economy
-[19:08:19] [Server thread/INFO]: [NexEngine] Successfully hooked with LuckPerms chat
-[19:08:19] [Server thread/INFO]: [NexEngine] Successfully hooked with Vault!
-[19:08:19] [Server thread/INFO]: [NexEngine] Plugin loaded in 120 ms!
-[19:08:19] [Server thread/INFO]: Preparing level "world"
-[19:08:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:08:20] [Server thread/INFO]: Time elapsed: 255 ms
-[19:08:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:08:20] [Server thread/INFO]: Time elapsed: 20 ms
-[19:08:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:08:20] [Server thread/INFO]: Time elapsed: 13 ms
-[19:08:20] [Server thread/INFO]: [BetterCommandSpy] Enabling BetterCommandSpy v2.0.3-b28
-[19:08:20] [Server thread/INFO]: [BetterCommandSpy] Loading files...
-[19:08:20] [Server thread/INFO]: [BetterCommandSpy] Loading file 'settings.yml'...
-[19:08:20] [Server thread/INFO]: [BetterCommandSpy] File 'settings.yml' has been loaded.
-[19:08:20] [Server thread/INFO]: [BetterCommandSpy] Loading file 'messages.yml'...
-[19:08:20] [Server thread/INFO]: [BetterCommandSpy] File 'messages.yml' has been loaded.
-[19:08:20] [Server thread/INFO]: [BetterCommandSpy] Loading file 'data.yml'...
-[19:08:20] [Server thread/INFO]: [BetterCommandSpy] File 'data.yml' has been loaded.
-[19:08:20] [Server thread/INFO]: [BetterCommandSpy] Registering listeners...
-[19:08:20] [Server thread/INFO]: [BetterCommandSpy] Registering commands...
-[19:08:20] [Server thread/INFO]: [BetterCommandSpy] Registered command '/bettercommandspy' successfully.
-[19:08:20] [Server thread/INFO]: [BetterCommandSpy] Running misc startup procedures...
-[19:08:20] [Server thread/INFO]: [BetterCommandSpy] Start-up complete (took164ms).
-[19:08:20] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.38
-[19:08:20] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
-[19:08:21] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[19:08:21] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v2.1.8
-[19:08:21] [Server thread/INFO]: [SilkSpawners] [INFO]: Starting SilkSpawners v2.1.8
-[19:08:21] [Server thread/INFO]: [SilkSpawners] [INFO]: Loading Cross-Version support
-[19:08:21] [Server thread/INFO]: [SilkSpawners] [INFO]: Loading support for NMS-Version v1_19_R1
-[19:08:21] [Server thread/INFO]: [SilkSpawners] [INFO]: Loading locale file
-[19:08:21] [pool-19-thread-1/INFO]: [SilkSpawners] [INFO]: Checking for updates
-[19:08:21] [Server thread/INFO]: [SilkSpawners] [INFO]: Starting metrics service. You can disable the collection of anonymous usage data by editing the config file under /plugins/bStats/
-[19:08:21] [Server thread/INFO]: [SilkSpawners] [INFO]: Registering listeners
-[19:08:21] [Server thread/INFO]: [SilkSpawners] [INFO]: Registering commands
-[19:08:21] [Server thread/INFO]: [SilkSpawners] [INFO]: Started SilkSpawners v2.1.8
-[19:08:21] [Server thread/INFO]: [ChestSort] Enabling ChestSort v13.4.0
-[19:08:21] [Server thread/INFO]: [ChestSort] Use permissions: true
-[19:08:21] [Server thread/INFO]: [ChestSort] Current sorting method: {category},{itemsFirst},{name},{color},{customName}
-[19:08:21] [Server thread/INFO]: [ChestSort] Allow automatic chest sorting:true
-[19:08:21] [Server thread/INFO]: [ChestSort]   |- Chest sorting enabled by default: false
-[19:08:21] [Server thread/INFO]: [ChestSort]   |- Sort time: close
-[19:08:21] [Server thread/INFO]: [ChestSort] Allow automatic inventory sorting:true
-[19:08:21] [Server thread/INFO]: [ChestSort]   |- Inventory sorting enabled by default: false
-[19:08:21] [Server thread/INFO]: [ChestSort] Auto generate category files: true
-[19:08:21] [Server thread/INFO]: [ChestSort] Allow hotkeys: true
-[19:08:21] [Server thread/INFO]: [ChestSort] Hotkeys enabled by default:
-[19:08:21] [Server thread/INFO]: [ChestSort]   |- Middle-Click: true
-[19:08:21] [Server thread/INFO]: [ChestSort]   |- Shift-Click: true
-[19:08:21] [Server thread/INFO]: [ChestSort]   |- Double-Click: true
-[19:08:21] [Server thread/INFO]: [ChestSort]   |- Shift-Right-Click: true
-[19:08:21] [Server thread/INFO]: [ChestSort] Allow additional hotkeys: true
-[19:08:21] [Server thread/INFO]: [ChestSort] Additional hotkeys enabled by default:
-[19:08:21] [Server thread/INFO]: [ChestSort]   |- Left-Click: false
-[19:08:21] [Server thread/INFO]: [ChestSort]   |- Right-Click: false
-[19:08:21] [Server thread/INFO]: [ChestSort] Check for updates: true
-[19:08:21] [Server thread/INFO]: [ChestSort] Check interval: 4 hours (4.0 seconds)
-[19:08:21] [Server thread/INFO]: [ChestSort] Categories: 900-weapons (6), 905-common-tools (4), 907-other-tools (6), 909-food (33), 910-valuables (47), 920-armor-and-arrows (9), 930-brewing (18), 950-redstone (23), 960-wood (60), 970-stone (38), 980-plants (50), 981-corals (1)
-[19:08:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: chestsort [13.4.0]
-[19:08:21] [Server thread/INFO]: [AureliumSkills] Enabling AureliumSkills vBeta 1.3.11
-[19:08:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: aureliumskills [Beta 1.3.11]
-[19:08:21] [Server thread/INFO]: [AureliumSkills] PlaceholderAPI Support Enabled!
-[19:08:21] [Server thread/INFO]: [AureliumSkills] Vault Support Enabled!
-[19:08:22] [Server thread/INFO]: [AureliumSkills] Loaded 187 config options in 0 ms
-[19:08:22] [Server thread/INFO]: [AureliumSkills] Loaded 303 sources and 10 tags in 28ms
-[19:08:22] [pool-19-thread-1/INFO]: [SilkSpawners] [INFO]: The plugin is up to date (v2.1.8)
-[19:08:22] [Server thread/INFO]: [AureliumSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[19:08:22] [Server thread/INFO]: [AureliumSkills] Loading languages...
-[19:08:23] [Server thread/INFO]: [AureliumSkills] Loaded 15 languages in 1530ms
-[19:08:23] [Server thread/INFO]: [AureliumSkills] Loaded 30 pattern rewards and 0 level rewards
-[19:08:24] [Server thread/INFO]: [AureliumSkills] Loaded 78 Ability Options in 2ms
-[19:08:24] [Server thread/INFO]: [AureliumSkills] Loaded 6 menus
-[19:08:24] [Server thread/INFO]: [AureliumSkills] Loaded 32 loot entries in 4 pools and 2 tables
-[19:08:24] [Server thread/INFO]: [AureliumSkills] Loaded 3 blocked worlds.
-[19:08:24] [Server thread/INFO]: [AureliumSkills] Aurelium Skills has been enabled
-[19:08:24] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0-dev+17-6e931b2
-[19:08:25] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[19:08:25] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[19:08:26] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
-[19:08:26] [Server thread/INFO]: [Essentials] Using locale en_US
-[19:08:26] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[19:08:26] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[19:08:26] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[19:08:26] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[19:08:26] [Server thread/INFO]: [NotQuests] Enabling NotQuests v5.8.4
-[19:08:26] [Server thread/INFO]: [NotQuests] Loading NotQuests Paper...
-[19:08:26] [Server thread/INFO]: [NotQuests]: Loading general config
-[19:08:26] [Server thread/INFO]: [NotQuests]: Detected version: 1.19.2-R0.1-SNAPSHOT (Paper)
-[19:08:26] [Server thread/INFO]: [NotQuests] Enabling NotQuests Paper...
-[19:08:26] [Server thread/INFO]: [NotQuests]: NotQuests (Paper) is starting...
-[19:08:26] [Server thread/INFO]: [NotQuests]: PlaceholderAPI found. Enabled PlaceholderAPI support!
-[19:08:26] [Server thread/INFO]: [NotQuests]: Vault found. Enabled Vault support!
-[19:08:26] [Server thread/INFO]: [NotQuests]: WorldEdit found. Enabled WorldEdit support!
-[19:08:26] [Server thread/INFO]: [NotQuests]: Citizens Dependency not found! Congratulations! In NotQuests, you can use armor stands instead of Citizens NPCs
-[19:08:26] [Server thread/INFO]: [NotQuests]: LuckPerms found. Enabled LuckPerms support!
-[19:08:26] [Server thread/INFO]: [NotQuests]: getLanguageConfig() is null. Loading language config...
-[19:08:26] [Server thread/INFO]: [NotQuests]: Creating or updating default.yml...
-[19:08:26] [Server thread/INFO]: [NotQuests]: Loading language config en-US.yml
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variables...
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable True
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable False
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable Condition
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable QuestPoints
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable Money
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable UltimateClansClanLevel
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable ActiveQuests
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable CompletedQuests
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable CompletedObjectiveIDsOfQuest
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable Permission
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable Name
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable Experience
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable ExperienceLevel
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable CurrentWorld
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable CurrentPositionX
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable CurrentPositionY
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable CurrentPositionZ
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable RandomNumberBetweenRange
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable PlaytimeTicks
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable PlaytimeMinutes
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable PlaytimeHours
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable Glowing
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable Op
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable Climbing
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable InLava
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable InWater
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable Ping
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable WalkSpeed
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable FlySpeed
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable Sleeping
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable Sneaking
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable Sprinting
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable Swimming
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable Health
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable MaxHealth
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable GameMode
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable Flying
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable DayOfWeek
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable CurrentBiome
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable Chance
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable Advancement
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable Inventory
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable EnderChest
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable ContainerInventory
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable Block
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable TagBoolean
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable TagInteger
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable TagFloat
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable TagDouble
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable TagString
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable QuestOnCooldown
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable QuestAbleToAcceptVariable
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable QuestReachedMaxAcceptsVariable
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable ItemInInventoryEnchantments
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable ReflectionStaticDouble
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable ReflectionStaticFloat
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable ReflectionStaticInteger
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable ReflectionStaticBoolean
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable ReflectionStaticString
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable PlaceholderAPINumber
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering variable PlaceholderAPIString
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering objectives...
-[19:08:28] [Server thread/INFO]: [NotQuests]: Registering objective Condition
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective BreakBlocks
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective PlaceBlocks
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective PickupItems
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective FishItems
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective TriggerCommand
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective OtherQuest
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective KillMobs
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective ConsumeItems
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective DeliverItems
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective TalkToNPC
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective EscortNPC
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective CraftItems
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective KillEliteMobs
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective ReachLocation
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective BreedMobs
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective SlimefunResearch
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective RunCommand
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective Interact
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective Jump
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective Sneak
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective SmeltItems
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective OpenBuriedTreasure
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective ShearSheep
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective Objective
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective NumberVariable
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective TownyReachResidentCount
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective TownyNationReachTownCount
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective JobsRebornReachJobLevel
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering objective ProjectKorraUseAbility
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering conditions...
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering condition CompletedObjective
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering condition WorldTime
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering condition Date
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering condition Number
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: PlaytimeTicks
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: CurrentPositionX
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: CurrentPositionY
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: CurrentPositionZ
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: UltimateClansClanLevel
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: MaxHealth
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: TagDouble
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: RandomNumberBetweenRange
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: Experience
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: Ping
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: PlaytimeHours
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: FlySpeed
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: ReflectionStaticFloat
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: WalkSpeed
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: Money
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: PlaytimeMinutes
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: ReflectionStaticInteger
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: ReflectionStaticDouble
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: Health
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: ExperienceLevel
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: TagInteger
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: TagFloat
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: PlaceholderAPINumber
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering number condition: QuestPoints
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering condition String
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering string condition: TagString
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering string condition: ReflectionStaticString
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering string condition: Name
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering string condition: GameMode
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering string condition: Block
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering string condition: PlaceholderAPIString
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering string condition: CurrentWorld
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering string condition: DayOfWeek
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering string condition: CurrentBiome
-[19:08:29] [Server thread/INFO]: [NotQuests]: Registering condition Boolean
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Op
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: InWater
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: QuestOnCooldown
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: InLava
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: True
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: False
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Permission
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Swimming
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: QuestReachedMaxAcceptsVariable
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: ReflectionStaticBoolean
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Flying
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Sneaking
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Sprinting
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Climbing
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Condition
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: QuestAbleToAcceptVariable
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Glowing
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Chance
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Sleeping
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: TagBoolean
-[19:08:29] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Advancement
-[19:08:30] [Server thread/INFO]: [NotQuests]: Registering condition List
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering list condition: ItemInInventoryEnchantments
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering list condition: CompletedObjectiveIDsOfQuest
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering list condition: ActiveQuests
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering list condition: CompletedQuests
-[19:08:30] [Server thread/INFO]: [NotQuests]: Registering condition ItemStackList
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering ItemStackList condition: ContainerInventory
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering ItemStackList condition: Inventory
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering ItemStackList condition: EnderChest
-[19:08:30] [Server thread/INFO]: [NotQuests]: Registering actions...
-[19:08:30] [Server thread/INFO]: [NotQuests]: Registering action Action
-[19:08:30] [Server thread/INFO]: [NotQuests]: Registering action GiveQuest
-[19:08:30] [Server thread/INFO]: [NotQuests]: Registering action CompleteQuest
-[19:08:30] [Server thread/INFO]: [NotQuests]: Registering action FailQuest
-[19:08:30] [Server thread/INFO]: [NotQuests]: Registering action TriggerCommand
-[19:08:30] [Server thread/INFO]: [NotQuests]: Registering action StartConversation
-[19:08:30] [Server thread/INFO]: [NotQuests]: Registering action ConsoleCommand
-[19:08:30] [Server thread/INFO]: [NotQuests]: Registering action PlayerCommand
-[19:08:30] [Server thread/INFO]: [NotQuests]: Registering action Chat
-[19:08:30] [Server thread/INFO]: [NotQuests]: Registering action GiveItem
-[19:08:30] [Server thread/INFO]: [NotQuests]: Registering action SpawnMob
-[19:08:30] [Server thread/INFO]: [NotQuests]: Registering action SendMessage
-[19:08:30] [Server thread/INFO]: [NotQuests]: Registering action BroadcastMessage
-[19:08:30] [Server thread/INFO]: [NotQuests]: Registering action PlaySound
-[19:08:30] [Server thread/INFO]: [NotQuests]: Registering action Number
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering number action: PlaytimeTicks
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering number action: CurrentPositionX
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering number action: CurrentPositionY
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering number action: CurrentPositionZ
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering number action: UltimateClansClanLevel
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering number action: MaxHealth
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering number action: TagDouble
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering number action: Experience
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering number action: PlaytimeHours
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering number action: FlySpeed
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering number action: ReflectionStaticFloat
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering number action: WalkSpeed
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering number action: Money
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering number action: PlaytimeMinutes
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering number action: ReflectionStaticInteger
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering number action: ReflectionStaticDouble
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering number action: Health
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering number action: ExperienceLevel
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering number action: TagInteger
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering number action: TagFloat
-[19:08:30] [Server thread/INFO]: [NotQuests]:   Registering number action: QuestPoints
-[19:08:31] [Server thread/INFO]: [NotQuests]: Registering action String
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering string action: TagString
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering string action: ReflectionStaticString
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering string action: Name
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering string action: GameMode
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering string action: Block
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering string action: CurrentWorld
-[19:08:31] [Server thread/INFO]: [NotQuests]: Registering action Boolean
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering boolean action: Op
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering boolean action: Permission
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering boolean action: Swimming
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering boolean action: ReflectionStaticBoolean
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering boolean action: Flying
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering boolean action: Sneaking
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering boolean action: Sprinting
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering boolean action: Glowing
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering boolean action: TagBoolean
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering boolean action: Advancement
-[19:08:31] [Server thread/INFO]: [NotQuests]: Registering action List
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering list action: CompletedObjectiveIDsOfQuest
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering list action: ActiveQuests
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering list action: CompletedQuests
-[19:08:31] [Server thread/INFO]: [NotQuests]: Registering action ItemStackList
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering ItemStackList action: ContainerInventory
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering ItemStackList action: Inventory
-[19:08:31] [Server thread/INFO]: [NotQuests]:   Registering ItemStackList action: EnderChest
-[19:08:31] [Server thread/INFO]: [NotQuests]: Registering action Beam
-[19:08:31] [Server thread/INFO]: [NotQuests]: Registering triggers...
-[19:08:31] [Server thread/INFO]: [NotQuests]: Registering trigger BEGIN
-[19:08:31] [Server thread/INFO]: [NotQuests]: Registering trigger COMPLETE
-[19:08:31] [Server thread/INFO]: [NotQuests]: Registering trigger DEATH
-[19:08:31] [Server thread/INFO]: [NotQuests]: Registering trigger DISCONNECT
-[19:08:31] [Server thread/INFO]: [NotQuests]: Registering trigger FAIL
-[19:08:31] [Server thread/INFO]: [NotQuests]: Registering trigger NPCDEATH
-[19:08:31] [Server thread/INFO]: [NotQuests]: Registering trigger WORLDENTER
-[19:08:31] [Server thread/INFO]: [NotQuests]: Registering trigger WORLDLEAVE
-[19:08:32] [Server thread/INFO]: [NotQuests]: Loading categories and configurations...
-[19:08:32] [Server thread/INFO]: [NotQuests]: Checking folder for categories: NotQuests
-[19:08:32] [Server thread/INFO]: [NotQuests]:   Loading real category: default
-[19:08:32] [Server thread/INFO]: [NotQuests]: Checking folder for categories: default
-[19:08:32] [Server thread/INFO]: [NotQuests]: Scheduled Actions Data load for following categories: [default]...
-[19:08:32] [Server thread/INFO]: [NotQuests]: Loading actions for category default
-[19:08:32] [Server thread/INFO]: [NotQuests]: Citizens Dependency not found! Congratulations! In NotQuests, you can use armor stands instead of Citizens NPCs
-[19:08:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: notquests [5.8.4]
-[19:08:32] [Server thread/INFO]: [NotQuests]: Loading conversations...
-[19:08:32] [Server thread/INFO]: [NotQuests]: Initializing modern packet injector...
-[19:08:32] [Server thread/INFO]: [NotQuests]: Scheduled Tags Data load for following categories: [default]
-[19:08:32] [Server thread/INFO]: [NotQuests]:   Loading tags for category default
-[19:08:32] [Server thread/INFO]: [NotQuests]: Scheduled Items Data load for following categories: [default]
-[19:08:32] [Server thread/INFO]: [NotQuests]:   Loading Items for category default
-[19:08:32] [Server thread/INFO]: [NotQuests]: Initial loading has completed!
-[19:08:32] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.0-dev+17-6e931b2
-[19:08:32] [Server thread/INFO]: [EssentialsChat] Secure signed chat and previews are enabled.
-[19:08:32] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[19:08:32] [Server thread/INFO]: [UltimateClaims] Enabling UltimateClaims v1.10.0
-[19:08:32] [Server thread/INFO]:  
-[19:08:32] [Server thread/INFO]: =============================
-[19:08:32] [Server thread/INFO]: UltimateClaims 1.10.0 by Songoda <3!
-[19:08:32] [Server thread/INFO]: Action: Enabling...
-[19:08:33] [Server thread/INFO]: [UltimateClaims] Loaded locale "en_US"
-[19:08:33] [Server thread/INFO]: [SongodaCore] [SongodaCore] Hooked UltimateClaims.
-[19:08:33] [Server thread/WARN]: [UltimateClaims] Loaded class me.clip.placeholderapi.expansion.PlaceholderExpansion from PlaceholderAPI v2.11.2 which is not a depend or softdepend of this plugin.
-[19:08:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ultimateclaims [1.10.0]
-[19:08:33] [Server thread/INFO]: =============================
-[19:08:33] [Server thread/INFO]:  
-[19:08:33] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.2
-[19:08:33] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
-[19:08:33] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[19:08:33] [Server thread/INFO]: --------------------
-[19:08:33] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[19:08:33] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[19:08:33] [Server thread/INFO]: --------------------
-[19:08:33] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.0
-[19:08:33] [Server thread/INFO]: [ExcellentCrates] Enabling ExcellentCrates v4.0.6
-[19:08:33] [Server thread/INFO]: [ExcellentCrates] Powered by: NexEngine
-[19:08:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: excellentcrates [4.0.6]
-[19:08:33] [Server thread/INFO]: [ExcellentCrates] Successfully hooked with PlaceholderAPI!
-[19:08:33] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
-[19:08:33] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@27cebe46
-[19:08:33] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
-[19:08:33] [Server thread/INFO]: [ExcellentCrates] Loaded 5 animation configs.
-[19:08:33] [Server thread/INFO]: [ExcellentCrates] Loaded 2 crate keys.
-[19:08:33] [Server thread/INFO]: [ExcellentCrates] Loaded 1 crate menus.
-[19:08:33] [Server thread/INFO]: [ExcellentCrates] Plugin loaded in 172 ms!
-[19:08:33] [Server thread/INFO]: [TabList] Enabling TabList v5.6.4
-[19:08:33] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] No bot token has been set in the config; a bot token is required to connect to Discord.
-[19:08:34] [Server thread/INFO]: [TabList] Hooked PlaceholderAPI version: 2.11.2
-[19:08:34] [Server thread/INFO]: [TabList] > Enabled v5.6.4 (111ms)
-[19:08:34] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v3.3.1
-[19:08:34] [Server thread/INFO]: [AuctionHouse] Found locale file en_us.json
-[19:08:34] [Server thread/WARN]: [AuctionHouse] [1;33mA backup of the database has been saved with .backup extension.[0m
-[19:08:34] [Server thread/INFO]: [AuctionHouse] Using NMS version v1_19_R1
-[19:08:34] [Server thread/INFO]: [AuctionHouse] Enabled DiscordSRV support
-[19:08:34] [Server thread/INFO]: [AuctionHouse] Using en_us locale
-[19:08:34] [Server thread/INFO]: [AuctionHouse] Loaded 0 listings
-[19:08:35] [pool-25-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (819b02508abe8879cfc2a513fc6cea383b70b5c5)
-[19:08:35] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[19:08:35] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[19:08:35] [Server thread/INFO]: Running delayed init tasks
-[19:08:35] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[19:08:35] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
-[19:08:35] [Craft Scheduler Thread - 5 - Essentials/INFO]: [Essentials] Fetching version information...
-[19:08:35] [Craft Scheduler Thread - 21 - ExcellentCrates/INFO]: [ExcellentCrates] Auto-save: Saved 0 online users | 0 offline users.
-[19:08:35] [Craft Scheduler Thread - 22 - Vault/INFO]: [Vault] Checking for Updates ... 
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [rocks.gravili.notquests.paper.shadow.hikari.HikariDataSource] HikariPool-1 - Starting...
-[19:08:35] [Server thread/INFO]: [ExcellentCrates] Loaded 3 crates.
-[19:08:35] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.0
-[19:08:35] [Server thread/INFO]: [AuctionHouse] Registered Service Provider Essentials for Vault's Economy API
-[19:08:35] [Server thread/INFO]: [AuctionHouse] Registered Service Provider LuckPerms for Vault's Chat API
-[19:08:35] [Server thread/INFO]: [AuctionHouse] Found PlaceholderAPI plugin
-[19:08:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: auctionhouse [3.3.1]
-[19:08:35] [Server thread/INFO]: [AuctionHouse] Registered PlaceholderAPI placeholders
-[19:08:35] [Server thread/INFO]: Done (25.493s)! For help, type "help"
-[19:08:35] [Server thread/INFO]: Timings Reset
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [rocks.gravili.notquests.paper.shadow.hikari.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@225bb770
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [rocks.gravili.notquests.paper.shadow.hikari.HikariDataSource] HikariPool-1 - Start completed.
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Backing up database...
-[19:08:35] [Craft Scheduler Thread - 22 - Vault/INFO]: [Vault] No new version available
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Your sqlite database has been successfully backed up to plugins\NotQuests\backups\database_sqlite-backup-2022-11-23-19-08-35.db
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Adding 'Profile' column to database tables if it the table exists but the column doesn't exist yet...
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Adding 'Profile' column to database tables if it the table exists but the column doesn't exist yet...
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Adding 'Profile' column to database tables if it the table exists but the column doesn't exist yet...
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Adding 'Profile' column to database tables if it the table exists but the column doesn't exist yet...
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Adding 'Profile' column to database tables if it the table exists but the column doesn't exist yet...
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Adding 'Profile' column to database tables if it the table exists but the column doesn't exist yet...
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Creating database table 'QuestPlayerProfileData' if it doesn't exist yet...
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Creating database table 'QuestPlayerData' if it doesn't exist yet...
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Creating database table 'ActiveQuests' if it doesn't exist yet...
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Creating database table 'CompletedQuests' if it doesn't exist yet...
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Adding 'ProgressNeeded' column to 'ActiveObjectives' if it the table exists but the column doesn't exist yet...
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Creating database table 'ActiveObjectives' if it doesn't exist yet...
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Creating database table 'ActiveTriggers' if it doesn't exist yet...
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Creating database table 'Tags' if it doesn't exist yet...
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Loaded player data
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Scheduled Quest Data load for following categories: [default]
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Loading Quests data from default category...
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Loading NPC data...
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Skipped loading NPC data because the 'quests' configuration section of the quests configuration for the category default was null.
-[19:08:35] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: NPC data loaded!
-[19:08:35] [Server thread/INFO]: [UltimateClaims] Data handler connected using SQLite.
-[19:28:35] [Craft Scheduler Thread - 43 - ExcellentCrates/INFO]: [ExcellentCrates] Auto-save: Saved 0 online users | 0 offline users.
-[19:38:59] [User Authenticator #0/INFO]: UUID of player IAmToastt is a4024b2d-5e88-49d2-8984-384bc0781050
-[19:38:59] [Server thread/INFO]: IAmToastt joined the game
-[19:38:59] [Server thread/INFO]: IAmToastt[/25.60.116.100:56377] logged in with entity id 219 at ([world]28.624595781279954, 117.0, -6.335380347131298)
-[19:38:59] [Craft Scheduler Thread - 14 - NotQuests/INFO]: [NotQuests]: Loading PlayerData of player a4024b2d-5e88-49d2-8984-384bc0781050...
-[19:38:59] [Craft Scheduler Thread - 14 - NotQuests/INFO]: [NotQuests]: Loaded player with uuid a4024b2d-5e88-49d2-8984-384bc0781050 (Profile: default) and questPoints: 0
-[19:38:59] [Craft Scheduler Thread - 14 - NotQuests/INFO]: [NotQuests]: Loading tags for IAmToastt (Profile: default) ...
-[19:39:00] [Craft Scheduler Thread - 14 - NotQuests/INFO]: [NotQuests]:   Loaded 0 tags for IAmToastt:
-[19:42:51] [Server thread/INFO]: IAmToastt issued server command: /excellentcrates editor
-[19:42:51] [Server thread/WARN]: [NexEngine] Loaded class me.clip.placeholderapi.PlaceholderAPI from PlaceholderAPI v2.11.2 which is not a depend or softdepend of this plugin.
-[19:43:26] [Server thread/INFO]: IAmToastt issued server command: /excellentcrates editor
-[19:44:27] [Server thread/INFO]: IAmToastt has made the advancement [Diamonds!]
-[19:44:46] [Server thread/INFO]: IAmToastt has made the advancement [Cover Me with Diamonds]
-[19:45:56] [Server thread/INFO]: IAmToastt issued server command: /itemrename &d&lThor's Hammer
-[19:48:35] [Craft Scheduler Thread - 2 - ExcellentCrates/INFO]: [ExcellentCrates] Auto-save: Saved 1 online users | 0 offline users.
-[19:50:37] [Server thread/INFO]: IAmToastt issued server command: /itemrename &d&lVoter's Helmet
-[19:50:43] [Server thread/INFO]: IAmToastt issued server command: /itemrename &d&lVoter's Chestplate
-[19:50:51] [Server thread/INFO]: IAmToastt issued server command: /itemrename &d&lVoter's Boots
-[19:50:55] [Server thread/INFO]: IAmToastt issued server command: /itemrename &d&lVoter's Chestplate
-[19:50:59] [Server thread/INFO]: IAmToastt issued server command: /itemrename &d&lVoter's Leggins
-[19:51:02] [Server thread/INFO]: IAmToastt issued server command: /itemrename &d&lVoter's Leggings
-[19:51:05] [Server thread/INFO]: IAmToastt issued server command: /itemrename &d&lVoter's Boots
-[19:51:10] [Server thread/INFO]: IAmToastt issued server command: /itemrename &d&lVoter's Shovel
-[19:51:15] [Server thread/INFO]: IAmToastt issued server command: /itemrename &d&lVoter's Pickaxe
-[19:53:04] [Server thread/INFO]: IAmToastt issued server command: /excellentcrates editor
-[19:54:19] [Server thread/INFO]: IAmToastt issued server command: /itemrename &0&lSpawner Crate Key
-[19:54:24] [Server thread/INFO]: IAmToastt issued server command: /excellentcrates editor
-[19:56:58] [Server thread/INFO]: IAmToastt issued server command: /excellentcrates key give IAmToastt spawner 1
-[19:57:04] [Server thread/INFO]: IAmToastt issued server command: /excellentcrates editor
-[19:57:25] [Server thread/INFO]: IAmToastt issued server command: /excellentcrates key give IAmToastt vote 1
-[19:57:53] [Server thread/INFO]: IAmToastt issued server command: /itemrename &d&lVote Crate Key
-[19:58:37] [Server thread/INFO]: IAmToastt issued server command: /excellentcrates editor
-[20:03:13] [Async Chat Thread - #10/INFO]:  <IAmToastt> orange
-[20:04:03] [Server thread/INFO]: IAmToastt issued server command: /excellentcrates editor
-[20:05:38] [Server thread/INFO]: IAmToastt issued server command: /itemrename &6&lPremium Crate Key
-[20:06:48] [Server thread/INFO]: IAmToastt issued server command: /crates editor
-[20:08:35] [Craft Scheduler Thread - 2 - ExcellentCrates/INFO]: [ExcellentCrates] Auto-save: Saved 1 online users | 0 offline users.
-[20:09:36] [Server thread/INFO]: IAmToastt issued server command: /crates editor
-[20:10:14] [Server thread/INFO]: IAmToastt issued server command: /crates give IAmToastt premium 1
-[20:10:20] [Server thread/INFO]: IAmToastt issued server command: /crates key give IAmToastt premium 1
-[20:10:28] [Server thread/INFO]: IAmToastt issued server command: /crates editor
-[20:15:41] [Server thread/INFO]: IAmToastt issued server command: /#exit
-[20:17:39] [Server thread/INFO]: IAmToastt issued server command: /claims
-[20:17:44] [Server thread/INFO]: IAmToastt issued server command: /c
-[20:17:47] [Server thread/INFO]: IAmToastt issued server command: /songoda
-[20:19:35] [Server thread/INFO]: IAmToastt lost connection: Disconnected
-[20:19:35] [Server thread/INFO]: IAmToastt left the game
-[20:19:35] [Craft Scheduler Thread - 78 - NotQuests/INFO]: [NotQuests]: Saving PlayerData of player IAmToastt...
-[20:19:37] [Craft Scheduler Thread - 78 - NotQuests/INFO]: [NotQuests]: PlayerData of player IAmToastt was saved (0 QuestPoints, Profile: default)
-[20:20:02] [Server thread/INFO]: Stopping server
-[20:20:02] [Server thread/INFO]: [AuctionHouse] Disabling AuctionHouse v3.3.1
-[20:20:02] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion auctionhouse
-[20:20:02] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin AuctionHouse was disabled.
-[20:20:02] [Server thread/INFO]: [AuctionHouse] Saving auctions data
-[20:20:02] [Server thread/INFO]: [TabList] Disabling TabList v5.6.4
-[20:20:02] [Server thread/INFO]: [ExcellentCrates] Disabling ExcellentCrates v4.0.6
-[20:20:02] [Server thread/INFO]: [ExcellentCrates] Auto-save: Saved 0 online users | 0 offline users.
-[20:20:02] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
-[20:20:02] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[20:20:02] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v21.2
-[20:20:02] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
-[20:20:04] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v21.2
-[20:20:04] [Server thread/INFO]: [NexEngine] Disabling NexEngine v2.2.6 build-04/10/2022
-[20:20:04] [Server thread/INFO]: [UltimateClaims] Disabling UltimateClaims v1.10.0
-[20:20:04] [Server thread/INFO]:  
-[20:20:04] [Server thread/INFO]: =============================
-[20:20:04] [Server thread/INFO]: UltimateClaims 1.10.0 by Songoda <3!
-[20:20:04] [Server thread/INFO]: Action: Disabling...
-[20:20:04] [Server thread/INFO]: =============================
-[20:20:04] [Server thread/INFO]:  
-[20:20:04] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.0-dev+17-6e931b2
-[20:20:04] [Server thread/INFO]: [NotQuests] Disabling NotQuests v5.8.4
-[20:20:04] [Server thread/INFO]: [NotQuests]: NotQuests is shutting down...
-[20:20:04] [Server thread/INFO]: [NotQuests]: Your quests.yml of category default has been successfully backed up to plugins\NotQuests\backups\quests-backup-default-2022-11-23-20-20-04.yml
-[20:20:04] [Server thread/INFO]: [NotQuests]: Closing database connection...
-[20:20:04] [Server thread/INFO]: [rocks.gravili.notquests.paper.shadow.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
-[20:20:04] [Server thread/INFO]: [rocks.gravili.notquests.paper.shadow.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[20:20:04] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0-dev+17-6e931b2
-[20:20:04] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[20:20:04] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.12+6240-87f4ae1
-[20:20:05] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[20:20:05] [Server thread/INFO]: [AureliumSkills] Disabling AureliumSkills vBeta 1.3.11
-[20:20:05] [Server thread/INFO]: [ChestSort] Disabling ChestSort v13.4.0
-[20:20:05] [Server thread/INFO]: [SilkSpawners] Disabling SilkSpawners v2.1.8
-[20:20:05] [Server thread/INFO]: [SilkSpawners] [INFO]: Stopping version checker
-[20:20:05] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[20:20:05] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
-[20:20:05] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.38
-[20:20:05] [Server thread/INFO]: [BetterCommandSpy] Disabling BetterCommandSpy v2.0.3-b28
-[20:20:05] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.52
-[20:20:05] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[20:20:05] [Server thread/INFO]: [LuckPerms] Closing storage...
-[20:20:05] [Server thread/INFO]: [LuckPerms] Goodbye!
-[20:20:05] [Server thread/INFO]: Saving players
-[20:20:05] [Server thread/INFO]: Saving worlds
-[20:20:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:20:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:20:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:20:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:20:05] [Server thread/INFO]: [ChunkHolderManager] Saved 6 block chunks, 121 entity chunks, 0 poi chunks in world 'world' in 0.04s
-[20:20:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:20:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:20:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:20:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:20:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:20:08] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 22 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[20:20:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:20:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:20:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:20:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:20:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:20:09] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
-[20:20:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:20:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:20:10] [Server thread/INFO]: Flushing Chunk IO
-[20:20:10] [Server thread/INFO]: Closing Thread Pool
-[20:20:10] [Server thread/INFO]: Closing Server
+[20:22:26] [ServerMain/INFO]: Building unoptimized datafixer
+[20:22:28] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:22:29] [ServerMain/INFO]: Loaded 7 recipes
+[20:22:31] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[20:22:31] [Server thread/INFO]: Loading properties
+[20:22:31] [Server thread/INFO]: This server is running Paper version git-Paper-280 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 3ab194e)
+[20:22:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:22:31] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:22:31] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[20:22:31] [Server thread/INFO]: Default game type: SURVIVAL
+[20:22:31] [Server thread/INFO]: Generating keypair
+[20:22:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:22:31] [Server thread/INFO]: Using default channel type
+[20:22:31] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:22:31] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:22:32] [Server thread/INFO]: [NexEngine] Loading 1 libraries... please wait
+[20:22:32] [Server thread/INFO]: [NexEngine] Loaded library C:\Users\lauro\Dropbox\Minecraft\Minecraft\NewMc\libraries\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar
+[20:22:32] [Server thread/INFO]: [NexEngine] Loaded library C:\Users\lauro\Dropbox\Minecraft\Minecraft\NewMc\libraries\org\slf4j\slf4j-api\2.0.0-alpha1\slf4j-api-2.0.0-alpha1.jar
+[20:22:32] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.52
+[20:22:32] [Server thread/INFO]: [BetterCommandSpy] Loading BetterCommandSpy v2.0.3-b28
+[20:22:32] [Server thread/INFO]: [Chunky] Loading Chunky v1.3.38
+[20:22:32] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
+[20:22:32] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[20:22:32] [Server thread/INFO]: [SilkSpawners] Loading SilkSpawners v2.1.8
+[20:22:32] [Server thread/INFO]: [ChestSort] Loading ChestSort v13.4.0
+[20:22:32] [Server thread/INFO]: [AureliumSkills] Loading AureliumSkills vBeta 1.3.11
+[20:22:32] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
+[20:22:33] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7ebe2565]
+[20:22:33] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.0-dev+17-6e931b2
+[20:22:33] [Server thread/INFO]: [NotQuests] Loading NotQuests v5.8.4
+[20:22:33] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.20.0-dev+17-6e931b2
+[20:22:33] [Server thread/INFO]: [NexEngine] Loading NexEngine v2.2.6 build-04/10/2022
+[20:22:33] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.18
+[20:22:33] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v21.2
+[20:22:33] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.26.0
+[20:22:33] [Server thread/INFO]: [ExcellentCrates] Loading ExcellentCrates v4.0.6
+[20:22:33] [Server thread/INFO]: [TabList] Loading TabList v5.6.4
+[20:22:33] [Server thread/INFO]: [AuctionHouse] Loading AuctionHouse v3.3.1
+[20:22:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:22:33] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.52
+[20:22:33] [Server thread/INFO]:         __    
+[20:22:33] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.52
+[20:22:33] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:22:33] [Server thread/INFO]: 
+[20:22:33] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:22:34] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:22:34] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:22:34] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:22:34] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1387ms)
+[20:22:34] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[20:22:34] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.20.0-dev+17-6e931b2 which is not a depend or softdepend of this plugin.
+[20:22:34] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[20:22:34] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[20:22:34] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[20:22:34] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[20:22:34] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
+[20:22:34] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:22:34] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[20:22:34] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[20:22:35] [Server thread/INFO]: [NexEngine] Enabling NexEngine v2.2.6 build-04/10/2022
+[20:22:35] [Server thread/INFO]: [NexEngine] Loaded NMS version: V1_19_R1
+[20:22:35] [Server thread/INFO]: [NexEngine] Successfully hooked with LuckPerms permissions
+[20:22:35] [Server thread/INFO]: [NexEngine] Successfully hooked with EssentialsX Economy economy
+[20:22:35] [Server thread/INFO]: [NexEngine] Successfully hooked with LuckPerms chat
+[20:22:35] [Server thread/INFO]: [NexEngine] Successfully hooked with Vault!
+[20:22:35] [Server thread/INFO]: [NexEngine] Plugin loaded in 57 ms!
+[20:22:35] [Server thread/INFO]: Preparing level "world"
+[20:22:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:22:36] [Server thread/INFO]: Time elapsed: 83 ms
+[20:22:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:22:36] [Server thread/INFO]: Time elapsed: 20 ms
+[20:22:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:22:36] [Server thread/INFO]: Time elapsed: 29 ms
+[20:22:36] [Server thread/INFO]: [BetterCommandSpy] Enabling BetterCommandSpy v2.0.3-b28
+[20:22:36] [Server thread/INFO]: [BetterCommandSpy] Loading files...
+[20:22:36] [Server thread/INFO]: [BetterCommandSpy] Loading file 'settings.yml'...
+[20:22:36] [Server thread/INFO]: [BetterCommandSpy] File 'settings.yml' has been loaded.
+[20:22:36] [Server thread/INFO]: [BetterCommandSpy] Loading file 'messages.yml'...
+[20:22:36] [Server thread/INFO]: [BetterCommandSpy] File 'messages.yml' has been loaded.
+[20:22:36] [Server thread/INFO]: [BetterCommandSpy] Loading file 'data.yml'...
+[20:22:36] [Server thread/INFO]: [BetterCommandSpy] File 'data.yml' has been loaded.
+[20:22:36] [Server thread/INFO]: [BetterCommandSpy] Registering listeners...
+[20:22:36] [Server thread/INFO]: [BetterCommandSpy] Registering commands...
+[20:22:36] [Server thread/INFO]: [BetterCommandSpy] Registered command '/bettercommandspy' successfully.
+[20:22:36] [Server thread/INFO]: [BetterCommandSpy] Running misc startup procedures...
+[20:22:36] [Server thread/INFO]: [BetterCommandSpy] Start-up complete (took18ms).
+[20:22:36] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.38
+[20:22:37] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
+[20:22:37] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:22:37] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v2.1.8
+[20:22:37] [Server thread/INFO]: [SilkSpawners] [INFO]: Starting SilkSpawners v2.1.8
+[20:22:37] [Server thread/INFO]: [SilkSpawners] [INFO]: Loading Cross-Version support
+[20:22:37] [Server thread/INFO]: [SilkSpawners] [INFO]: Loading support for NMS-Version v1_19_R1
+[20:22:37] [Server thread/INFO]: [SilkSpawners] [INFO]: Loading locale file
+[20:22:37] [Server thread/INFO]: [SilkSpawners] [INFO]: Starting metrics service. You can disable the collection of anonymous usage data by editing the config file under /plugins/bStats/
+[20:22:37] [Server thread/INFO]: [SilkSpawners] [INFO]: Registering listeners
+[20:22:37] [Server thread/INFO]: [SilkSpawners] [INFO]: Registering commands
+[20:22:37] [Server thread/INFO]: [SilkSpawners] [INFO]: Started SilkSpawners v2.1.8
+[20:22:37] [Server thread/INFO]: [ChestSort] Enabling ChestSort v13.4.0
+[20:22:37] [pool-19-thread-1/INFO]: [SilkSpawners] [INFO]: Checking for updates
+[20:22:37] [Server thread/INFO]: [ChestSort] Use permissions: true
+[20:22:37] [Server thread/INFO]: [ChestSort] Current sorting method: {category},{itemsFirst},{name},{color},{customName}
+[20:22:37] [Server thread/INFO]: [ChestSort] Allow automatic chest sorting:true
+[20:22:37] [Server thread/INFO]: [ChestSort]   |- Chest sorting enabled by default: false
+[20:22:37] [Server thread/INFO]: [ChestSort]   |- Sort time: close
+[20:22:37] [Server thread/INFO]: [ChestSort] Allow automatic inventory sorting:true
+[20:22:37] [Server thread/INFO]: [ChestSort]   |- Inventory sorting enabled by default: false
+[20:22:37] [Server thread/INFO]: [ChestSort] Auto generate category files: true
+[20:22:37] [Server thread/INFO]: [ChestSort] Allow hotkeys: true
+[20:22:37] [Server thread/INFO]: [ChestSort] Hotkeys enabled by default:
+[20:22:37] [Server thread/INFO]: [ChestSort]   |- Middle-Click: true
+[20:22:37] [Server thread/INFO]: [ChestSort]   |- Shift-Click: true
+[20:22:37] [Server thread/INFO]: [ChestSort]   |- Double-Click: true
+[20:22:37] [Server thread/INFO]: [ChestSort]   |- Shift-Right-Click: true
+[20:22:37] [Server thread/INFO]: [ChestSort] Allow additional hotkeys: true
+[20:22:37] [Server thread/INFO]: [ChestSort] Additional hotkeys enabled by default:
+[20:22:37] [Server thread/INFO]: [ChestSort]   |- Left-Click: false
+[20:22:37] [Server thread/INFO]: [ChestSort]   |- Right-Click: false
+[20:22:37] [Server thread/INFO]: [ChestSort] Check for updates: true
+[20:22:37] [Server thread/INFO]: [ChestSort] Check interval: 4 hours (4.0 seconds)
+[20:22:37] [Server thread/INFO]: [ChestSort] Categories: 900-weapons (6), 905-common-tools (4), 907-other-tools (6), 909-food (33), 910-valuables (47), 920-armor-and-arrows (9), 930-brewing (18), 950-redstone (23), 960-wood (60), 970-stone (38), 980-plants (50), 981-corals (1)
+[20:22:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: chestsort [13.4.0]
+[20:22:37] [Server thread/INFO]: [AureliumSkills] Enabling AureliumSkills vBeta 1.3.11
+[20:22:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: aureliumskills [Beta 1.3.11]
+[20:22:37] [Server thread/INFO]: [AureliumSkills] PlaceholderAPI Support Enabled!
+[20:22:37] [Server thread/INFO]: [AureliumSkills] Vault Support Enabled!
+[20:22:37] [Server thread/INFO]: [AureliumSkills] Loaded 187 config options in 0 ms
+[20:22:37] [Server thread/INFO]: [AureliumSkills] Loaded 303 sources and 10 tags in 11ms
+[20:22:37] [Server thread/INFO]: [AureliumSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[20:22:37] [Server thread/INFO]: [AureliumSkills] Loading languages...
+[20:22:37] [pool-19-thread-1/INFO]: [SilkSpawners] [INFO]: The plugin is up to date (v2.1.8)
+[20:22:38] [Server thread/INFO]: [AureliumSkills] Loaded 15 languages in 843ms
+[20:22:38] [Server thread/INFO]: [AureliumSkills] Loaded 30 pattern rewards and 0 level rewards
+[20:22:38] [Server thread/INFO]: [AureliumSkills] Loaded 78 Ability Options in 2ms
+[20:22:38] [Server thread/INFO]: [AureliumSkills] Loaded 6 menus
+[20:22:38] [Server thread/INFO]: [AureliumSkills] Loaded 32 loot entries in 4 pools and 2 tables
+[20:22:38] [Server thread/INFO]: [AureliumSkills] Loaded 3 blocked worlds.
+[20:22:38] [Server thread/INFO]: [AureliumSkills] Aurelium Skills has been enabled
+[20:22:38] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_19_R1! Trying to find NMS support
+[20:22:38] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_19_R1' loaded!
+[20:22:38] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
+[20:22:38] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0-dev+17-6e931b2
+[20:22:39] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[20:22:39] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[20:22:39] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[20:22:39] [Server thread/INFO]: [Essentials] Using locale en_US
+[20:22:39] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[20:22:39] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:22:39] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[20:22:39] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[20:22:39] [Server thread/INFO]: [NotQuests] Enabling NotQuests v5.8.4
+[20:22:39] [Server thread/INFO]: [NotQuests] Loading NotQuests Paper...
+[20:22:39] [Server thread/INFO]: [NotQuests]: Loading general config
+[20:22:39] [Server thread/INFO]: [NotQuests]: Detected version: 1.19.2-R0.1-SNAPSHOT (Paper)
+[20:22:39] [Server thread/INFO]: [NotQuests] Enabling NotQuests Paper...
+[20:22:39] [Server thread/INFO]: [NotQuests]: NotQuests (Paper) is starting...
+[20:22:39] [Server thread/INFO]: [NotQuests]: PlaceholderAPI found. Enabled PlaceholderAPI support!
+[20:22:39] [Server thread/INFO]: [NotQuests]: Vault found. Enabled Vault support!
+[20:22:39] [Server thread/INFO]: [NotQuests]: WorldEdit found. Enabled WorldEdit support!
+[20:22:39] [Server thread/INFO]: [NotQuests]: Citizens Dependency not found! Congratulations! In NotQuests, you can use armor stands instead of Citizens NPCs
+[20:22:39] [Server thread/INFO]: [NotQuests]: LuckPerms found. Enabled LuckPerms support!
+[20:22:39] [Server thread/INFO]: [NotQuests]: getLanguageConfig() is null. Loading language config...
+[20:22:39] [Server thread/INFO]: [NotQuests]: Creating or updating default.yml...
+[20:22:39] [Server thread/INFO]: [NotQuests]: Loading language config en-US.yml
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variables...
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable True
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable False
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable Condition
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable QuestPoints
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable Money
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable UltimateClansClanLevel
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable ActiveQuests
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable CompletedQuests
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable CompletedObjectiveIDsOfQuest
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable Permission
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable Name
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable Experience
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable ExperienceLevel
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable CurrentWorld
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable CurrentPositionX
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable CurrentPositionY
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable CurrentPositionZ
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable RandomNumberBetweenRange
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable PlaytimeTicks
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable PlaytimeMinutes
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable PlaytimeHours
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable Glowing
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable Op
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable Climbing
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable InLava
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable InWater
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable Ping
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable WalkSpeed
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable FlySpeed
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable Sleeping
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable Sneaking
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable Sprinting
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable Swimming
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable Health
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable MaxHealth
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable GameMode
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable Flying
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable DayOfWeek
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable CurrentBiome
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable Chance
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable Advancement
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable Inventory
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable EnderChest
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable ContainerInventory
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable Block
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable TagBoolean
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable TagInteger
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable TagFloat
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable TagDouble
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable TagString
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable QuestOnCooldown
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable QuestAbleToAcceptVariable
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable QuestReachedMaxAcceptsVariable
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable ItemInInventoryEnchantments
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable ReflectionStaticDouble
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable ReflectionStaticFloat
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable ReflectionStaticInteger
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable ReflectionStaticBoolean
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable ReflectionStaticString
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable PlaceholderAPINumber
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering variable PlaceholderAPIString
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objectives...
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective Condition
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective BreakBlocks
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective PlaceBlocks
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective PickupItems
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective FishItems
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective TriggerCommand
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective OtherQuest
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective KillMobs
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective ConsumeItems
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective DeliverItems
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective TalkToNPC
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective EscortNPC
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective CraftItems
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective KillEliteMobs
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective ReachLocation
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective BreedMobs
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective SlimefunResearch
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective RunCommand
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective Interact
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective Jump
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective Sneak
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective SmeltItems
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective OpenBuriedTreasure
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective ShearSheep
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective Objective
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective NumberVariable
+[20:22:39] [Server thread/INFO]: [NotQuests]: Registering objective TownyReachResidentCount
+[20:22:40] [Server thread/INFO]: [NotQuests]: Registering objective TownyNationReachTownCount
+[20:22:40] [Server thread/INFO]: [NotQuests]: Registering objective JobsRebornReachJobLevel
+[20:22:40] [Server thread/INFO]: [NotQuests]: Registering objective ProjectKorraUseAbility
+[20:22:40] [Server thread/INFO]: [NotQuests]: Registering conditions...
+[20:22:40] [Server thread/INFO]: [NotQuests]: Registering condition CompletedObjective
+[20:22:40] [Server thread/INFO]: [NotQuests]: Registering condition WorldTime
+[20:22:40] [Server thread/INFO]: [NotQuests]: Registering condition Date
+[20:22:40] [Server thread/INFO]: [NotQuests]: Registering condition Number
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: PlaytimeTicks
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: CurrentPositionX
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: CurrentPositionY
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: CurrentPositionZ
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: UltimateClansClanLevel
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: MaxHealth
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: TagDouble
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: RandomNumberBetweenRange
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: Experience
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: Ping
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: PlaytimeHours
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: FlySpeed
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: ReflectionStaticFloat
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: WalkSpeed
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: Money
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: PlaytimeMinutes
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: ReflectionStaticInteger
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: ReflectionStaticDouble
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: Health
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: ExperienceLevel
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: TagInteger
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: TagFloat
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: PlaceholderAPINumber
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering number condition: QuestPoints
+[20:22:40] [Server thread/INFO]: [NotQuests]: Registering condition String
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering string condition: TagString
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering string condition: ReflectionStaticString
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering string condition: Name
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering string condition: GameMode
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering string condition: Block
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering string condition: PlaceholderAPIString
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering string condition: CurrentWorld
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering string condition: DayOfWeek
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering string condition: CurrentBiome
+[20:22:40] [Server thread/INFO]: [NotQuests]: Registering condition Boolean
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Op
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: InWater
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: QuestOnCooldown
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: InLava
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: True
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: False
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Permission
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Swimming
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: QuestReachedMaxAcceptsVariable
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: ReflectionStaticBoolean
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Flying
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Sneaking
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Sprinting
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Climbing
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Condition
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: QuestAbleToAcceptVariable
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Glowing
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Chance
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Sleeping
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: TagBoolean
+[20:22:40] [Server thread/INFO]: [NotQuests]:   Registering boolean condition: Advancement
+[20:22:41] [Server thread/INFO]: [NotQuests]: Registering condition List
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering list condition: ItemInInventoryEnchantments
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering list condition: CompletedObjectiveIDsOfQuest
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering list condition: ActiveQuests
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering list condition: CompletedQuests
+[20:22:41] [Server thread/INFO]: [NotQuests]: Registering condition ItemStackList
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering ItemStackList condition: ContainerInventory
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering ItemStackList condition: Inventory
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering ItemStackList condition: EnderChest
+[20:22:41] [Server thread/INFO]: [NotQuests]: Registering actions...
+[20:22:41] [Server thread/INFO]: [NotQuests]: Registering action Action
+[20:22:41] [Server thread/INFO]: [NotQuests]: Registering action GiveQuest
+[20:22:41] [Server thread/INFO]: [NotQuests]: Registering action CompleteQuest
+[20:22:41] [Server thread/INFO]: [NotQuests]: Registering action FailQuest
+[20:22:41] [Server thread/INFO]: [NotQuests]: Registering action TriggerCommand
+[20:22:41] [Server thread/INFO]: [NotQuests]: Registering action StartConversation
+[20:22:41] [Server thread/INFO]: [NotQuests]: Registering action ConsoleCommand
+[20:22:41] [Server thread/INFO]: [NotQuests]: Registering action PlayerCommand
+[20:22:41] [Server thread/INFO]: [NotQuests]: Registering action Chat
+[20:22:41] [Server thread/INFO]: [NotQuests]: Registering action GiveItem
+[20:22:41] [Server thread/INFO]: [NotQuests]: Registering action SpawnMob
+[20:22:41] [Server thread/INFO]: [NotQuests]: Registering action SendMessage
+[20:22:41] [Server thread/INFO]: [NotQuests]: Registering action BroadcastMessage
+[20:22:41] [Server thread/INFO]: [NotQuests]: Registering action PlaySound
+[20:22:41] [Server thread/INFO]: [NotQuests]: Registering action Number
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering number action: PlaytimeTicks
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering number action: CurrentPositionX
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering number action: CurrentPositionY
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering number action: CurrentPositionZ
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering number action: UltimateClansClanLevel
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering number action: MaxHealth
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering number action: TagDouble
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering number action: Experience
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering number action: PlaytimeHours
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering number action: FlySpeed
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering number action: ReflectionStaticFloat
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering number action: WalkSpeed
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering number action: Money
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering number action: PlaytimeMinutes
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering number action: ReflectionStaticInteger
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering number action: ReflectionStaticDouble
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering number action: Health
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering number action: ExperienceLevel
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering number action: TagInteger
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering number action: TagFloat
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering number action: QuestPoints
+[20:22:41] [Server thread/INFO]: [NotQuests]: Registering action String
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering string action: TagString
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering string action: ReflectionStaticString
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering string action: Name
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering string action: GameMode
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering string action: Block
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering string action: CurrentWorld
+[20:22:41] [Server thread/INFO]: [NotQuests]: Registering action Boolean
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering boolean action: Op
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering boolean action: Permission
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering boolean action: Swimming
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering boolean action: ReflectionStaticBoolean
+[20:22:41] [Server thread/INFO]: [NotQuests]:   Registering boolean action: Flying
+[20:22:42] [Server thread/INFO]: [NotQuests]:   Registering boolean action: Sneaking
+[20:22:42] [Server thread/INFO]: [NotQuests]:   Registering boolean action: Sprinting
+[20:22:42] [Server thread/INFO]: [NotQuests]:   Registering boolean action: Glowing
+[20:22:42] [Server thread/INFO]: [NotQuests]:   Registering boolean action: TagBoolean
+[20:22:42] [Server thread/INFO]: [NotQuests]:   Registering boolean action: Advancement
+[20:22:42] [Server thread/INFO]: [NotQuests]: Registering action List
+[20:22:42] [Server thread/INFO]: [NotQuests]:   Registering list action: CompletedObjectiveIDsOfQuest
+[20:22:42] [Server thread/INFO]: [NotQuests]:   Registering list action: ActiveQuests
+[20:22:42] [Server thread/INFO]: [NotQuests]:   Registering list action: CompletedQuests
+[20:22:42] [Server thread/INFO]: [NotQuests]: Registering action ItemStackList
+[20:22:42] [Server thread/INFO]: [NotQuests]:   Registering ItemStackList action: ContainerInventory
+[20:22:42] [Server thread/INFO]: [NotQuests]:   Registering ItemStackList action: Inventory
+[20:22:42] [Server thread/INFO]: [NotQuests]:   Registering ItemStackList action: EnderChest
+[20:22:42] [Server thread/INFO]: [NotQuests]: Registering action Beam
+[20:22:42] [Server thread/INFO]: [NotQuests]: Registering triggers...
+[20:22:42] [Server thread/INFO]: [NotQuests]: Registering trigger BEGIN
+[20:22:42] [Server thread/INFO]: [NotQuests]: Registering trigger COMPLETE
+[20:22:42] [Server thread/INFO]: [NotQuests]: Registering trigger DEATH
+[20:22:42] [Server thread/INFO]: [NotQuests]: Registering trigger DISCONNECT
+[20:22:42] [Server thread/INFO]: [NotQuests]: Registering trigger FAIL
+[20:22:42] [Server thread/INFO]: [NotQuests]: Registering trigger NPCDEATH
+[20:22:42] [Server thread/INFO]: [NotQuests]: Registering trigger WORLDENTER
+[20:22:42] [Server thread/INFO]: [NotQuests]: Registering trigger WORLDLEAVE
+[20:22:43] [Server thread/INFO]: [NotQuests]: Loading categories and configurations...
+[20:22:43] [Server thread/INFO]: [NotQuests]: Checking folder for categories: NotQuests
+[20:22:43] [Server thread/INFO]: [NotQuests]:   Loading real category: default
+[20:22:43] [Server thread/INFO]: [NotQuests]: Checking folder for categories: default
+[20:22:43] [Server thread/INFO]: [NotQuests]: Scheduled Actions Data load for following categories: [default]...
+[20:22:43] [Server thread/INFO]: [NotQuests]: Loading actions for category default
+[20:22:43] [Server thread/INFO]: [NotQuests]: Citizens Dependency not found! Congratulations! In NotQuests, you can use armor stands instead of Citizens NPCs
+[20:22:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: notquests [5.8.4]
+[20:22:43] [Server thread/INFO]: [NotQuests]: Loading conversations...
+[20:22:43] [Server thread/INFO]: [NotQuests]: Initializing modern packet injector...
+[20:22:43] [Server thread/INFO]: [NotQuests]: Scheduled Tags Data load for following categories: [default]
+[20:22:43] [Server thread/INFO]: [NotQuests]:   Loading tags for category default
+[20:22:43] [Server thread/INFO]: [NotQuests]: Scheduled Items Data load for following categories: [default]
+[20:22:43] [Server thread/INFO]: [NotQuests]:   Loading Items for category default
+[20:22:43] [Server thread/INFO]: [NotQuests]: Initial loading has completed!
+[20:22:43] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.0-dev+17-6e931b2
+[20:22:43] [Server thread/INFO]: [EssentialsChat] Secure signed chat and previews are enabled.
+[20:22:43] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[20:22:43] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18
+[20:22:43] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[20:22:43] [Server thread/INFO]: [GriefPrevention] 0 total claims loaded.
+[20:22:43] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[20:22:43] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[20:22:43] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[20:22:43] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.2
+[20:22:44] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[20:22:44] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[20:22:44] [Server thread/INFO]: --------------------
+[20:22:44] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[20:22:44] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[20:22:44] [Server thread/INFO]: --------------------
+[20:22:44] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.0
+[20:22:44] [Server thread/INFO]: [ExcellentCrates] Enabling ExcellentCrates v4.0.6
+[20:22:44] [Server thread/INFO]: [ExcellentCrates] Powered by: NexEngine
+[20:22:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: excellentcrates [4.0.6]
+[20:22:44] [Server thread/INFO]: [ExcellentCrates] Successfully hooked with PlaceholderAPI!
+[20:22:44] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[20:22:44] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@452e0399
+[20:22:44] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[20:22:44] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] No bot token has been set in the config; a bot token is required to connect to Discord.
+[20:22:44] [Server thread/INFO]: [ExcellentCrates] Loaded 5 animation configs.
+[20:22:44] [Server thread/INFO]: [ExcellentCrates] Loaded 5 crate keys.
+[20:22:44] [Server thread/INFO]: [ExcellentCrates] Loaded 1 crate menus.
+[20:22:44] [Server thread/INFO]: [ExcellentCrates] Plugin loaded in 120 ms!
+[20:22:44] [Server thread/INFO]: [TabList] Enabling TabList v5.6.4
+[20:22:44] [Server thread/INFO]: [TabList] Hooked PlaceholderAPI version: 2.11.2
+[20:22:44] [Server thread/INFO]: [TabList] > Enabled v5.6.4 (63ms)
+[20:22:44] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v3.3.1
+[20:22:44] [Server thread/INFO]: [AuctionHouse] Found locale file en_us.json
+[20:22:44] [Server thread/WARN]: [AuctionHouse] [1;33mA backup of the database has been saved with .backup extension.[0m
+[20:22:44] [Server thread/INFO]: [AuctionHouse] Using NMS version v1_19_R1
+[20:22:44] [Server thread/INFO]: [AuctionHouse] Enabled DiscordSRV support
+[20:22:44] [Server thread/INFO]: [AuctionHouse] Using en_us locale
+[20:22:44] [Server thread/INFO]: [AuctionHouse] Loaded 0 listings
+[20:22:44] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:22:44] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[20:22:44] [Server thread/INFO]: Running delayed init tasks
+[20:22:44] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[20:22:44] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[20:22:44] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.0
+[20:22:44] [Craft Scheduler Thread - 5 - Essentials/INFO]: [Essentials] Fetching version information...
+[20:22:44] [Craft Scheduler Thread - 10 - ExcellentCrates/INFO]: [ExcellentCrates] Auto-save: Saved 0 online users | 0 offline users.
+[20:22:44] [Craft Scheduler Thread - 11 - Vault/INFO]: [Vault] Checking for Updates ... 
+[20:22:44] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [rocks.gravili.notquests.paper.shadow.hikari.HikariDataSource] HikariPool-1 - Starting...
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [rocks.gravili.notquests.paper.shadow.hikari.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@75b65fb7
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [rocks.gravili.notquests.paper.shadow.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Backing up database...
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Your sqlite database has been successfully backed up to plugins\NotQuests\backups\database_sqlite-backup-2022-11-23-20-22-45.db
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Adding 'Profile' column to database tables if it the table exists but the column doesn't exist yet...
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Adding 'Profile' column to database tables if it the table exists but the column doesn't exist yet...
+[20:22:45] [Server thread/INFO]: [ExcellentCrates] Loaded 5 crates.
+[20:22:45] [Server thread/INFO]: [AuctionHouse] Registered Service Provider Essentials for Vault's Economy API
+[20:22:45] [Server thread/INFO]: [AuctionHouse] Registered Service Provider LuckPerms for Vault's Chat API
+[20:22:45] [Server thread/INFO]: [AuctionHouse] Found PlaceholderAPI plugin
+[20:22:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: auctionhouse [3.3.1]
+[20:22:45] [Server thread/INFO]: [AuctionHouse] Registered PlaceholderAPI placeholders
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Adding 'Profile' column to database tables if it the table exists but the column doesn't exist yet...
+[20:22:45] [Server thread/INFO]: Done (13.950s)! For help, type "help"
+[20:22:45] [Server thread/INFO]: Timings Reset
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Adding 'Profile' column to database tables if it the table exists but the column doesn't exist yet...
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Adding 'Profile' column to database tables if it the table exists but the column doesn't exist yet...
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Adding 'Profile' column to database tables if it the table exists but the column doesn't exist yet...
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Creating database table 'QuestPlayerProfileData' if it doesn't exist yet...
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Creating database table 'QuestPlayerData' if it doesn't exist yet...
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Creating database table 'ActiveQuests' if it doesn't exist yet...
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Creating database table 'CompletedQuests' if it doesn't exist yet...
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Adding 'ProgressNeeded' column to 'ActiveObjectives' if it the table exists but the column doesn't exist yet...
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Creating database table 'ActiveObjectives' if it doesn't exist yet...
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Creating database table 'ActiveTriggers' if it doesn't exist yet...
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Creating database table 'Tags' if it doesn't exist yet...
+[20:22:45] [pool-25-thread-1/WARN]: [DiscordSRV] Update check failed: zip file closed
+[20:22:45] [Craft Scheduler Thread - 11 - Vault/INFO]: [Vault] No new version available
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Loaded player data
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Scheduled Quest Data load for following categories: [default]
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Loading Quests data from default category...
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Loading NPC data...
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: Skipped loading NPC data because the 'quests' configuration section of the quests configuration for the category default was null.
+[20:22:45] [Craft Scheduler Thread - 7 - NotQuests/INFO]: [NotQuests]: NPC data loaded!
+[20:23:47] [Server thread/INFO]: Stopping server
+[20:23:47] [Server thread/INFO]: [AuctionHouse] Disabling AuctionHouse v3.3.1
+[20:23:47] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion auctionhouse
+[20:23:47] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin AuctionHouse was disabled.
+[20:23:47] [Server thread/INFO]: [AuctionHouse] Saving auctions data
+[20:23:47] [Server thread/INFO]: [TabList] Disabling TabList v5.6.4
+[20:23:47] [Server thread/INFO]: [ExcellentCrates] Disabling ExcellentCrates v4.0.6
+[20:23:47] [Server thread/INFO]: [ExcellentCrates] Auto-save: Saved 0 online users | 0 offline users.
+[20:23:47] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[20:23:47] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[20:23:47] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v21.2
+[20:23:47] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[20:23:48] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v21.2
+[20:23:48] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.18
+[20:23:48] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[20:23:48] [Server thread/INFO]: [NexEngine] Disabling NexEngine v2.2.6 build-04/10/2022
+[20:23:48] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.0-dev+17-6e931b2
+[20:23:48] [Server thread/INFO]: [NotQuests] Disabling NotQuests v5.8.4
+[20:23:48] [Server thread/INFO]: [NotQuests]: NotQuests is shutting down...
+[20:23:48] [Server thread/INFO]: [NotQuests]: Your quests.yml of category default has been successfully backed up to plugins\NotQuests\backups\quests-backup-default-2022-11-23-20-23-48.yml
+[20:23:48] [Server thread/INFO]: [NotQuests]: Closing database connection...
+[20:23:48] [Server thread/INFO]: [rocks.gravili.notquests.paper.shadow.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[20:23:48] [Server thread/INFO]: [rocks.gravili.notquests.paper.shadow.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[20:23:48] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0-dev+17-6e931b2
+[20:23:48] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[20:23:48] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.12+6240-87f4ae1
+[20:23:48] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[20:23:48] [Server thread/INFO]: [AureliumSkills] Disabling AureliumSkills vBeta 1.3.11
+[20:23:48] [Server thread/INFO]: [ChestSort] Disabling ChestSort v13.4.0
+[20:23:48] [Server thread/INFO]: [SilkSpawners] Disabling SilkSpawners v2.1.8
+[20:23:48] [Server thread/INFO]: [SilkSpawners] [INFO]: Stopping version checker
+[20:23:48] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[20:23:48] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
+[20:23:48] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.38
+[20:23:48] [Server thread/INFO]: [BetterCommandSpy] Disabling BetterCommandSpy v2.0.3-b28
+[20:23:48] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.52
+[20:23:48] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[20:23:48] [Server thread/INFO]: [LuckPerms] Closing storage...
+[20:23:48] [Server thread/INFO]: [LuckPerms] Goodbye!
+[20:23:48] [Server thread/INFO]: Saving players
+[20:23:48] [Server thread/INFO]: Saving worlds
+[20:23:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:23:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:23:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:23:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:23:49] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 1.31s
+[20:23:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:23:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:23:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:23:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:23:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:23:51] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.96s
+[20:23:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:23:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:23:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:23:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:23:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:23:52] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.14s
+[20:23:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:23:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:23:52] [Server thread/INFO]: Flushing Chunk IO
+[20:23:52] [Server thread/INFO]: Closing Thread Pool
+[20:23:52] [Server thread/INFO]: Closing Server
